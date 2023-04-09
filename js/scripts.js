@@ -8,7 +8,14 @@ $(document).ready(function (){
 
 })
 
-document.addEventListener('DOMContentLoaded', () => {
+$(document).ready(function (){
+    $(".header__button").click(function(){
+        $(".header__button").toggleClass("header__button--active")
+    }) 
+
+})
+
+/*document.addEventListener('DOMContentLoaded', () => {
 
     let myBtns=document.querySelectorAll('.header__button');
     myBtns.forEach(function(btn) {
@@ -20,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
  
     });
 
-});
+});*/
 document.addEventListener('DOMContentLoaded', () => {
 
     let myBtns=document.querySelectorAll('.main__btn');
@@ -34,6 +41,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
+
+
 $(document).ready(function (){
     $(".popup__close").click(function(){
         $(".popup").toggleClass("popup--hide")
