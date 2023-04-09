@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
-
 $(document).ready(function (){
     $(".popup__close").click(function(){
         $(".popup").toggleClass("popup--hide")
