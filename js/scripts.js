@@ -30,19 +30,7 @@ $(document).ready(function (){
 
 })
 
-/*document.addEventListener('DOMContentLoaded', () => {
 
-    let myBtns=document.querySelectorAll('.header__button');
-    myBtns.forEach(function(btn) {
-
-        btn.addEventListener('click', () => {
-          myBtns.forEach(b => b.classList.remove('header__button--active'));
-          btn.classList.add('header__button--active');
-        });
- 
-    });
-
-});*/
 
 $(document).ready(function (){
     $(".popup__close").click(function(){
