@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
 
     let myBtns=document.querySelectorAll('.main__btn');
     myBtns.forEach(function(btn) {
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
  
     });
 
-});
+});*/
 
 
 $(document).ready(function (){
